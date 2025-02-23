@@ -11,6 +11,7 @@
             padding: 20px;
             background-color: #f4f4f4;
         }
+
         .container {
             max-width: 600px;
             background: white;
@@ -18,12 +19,15 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
         h1 {
             color: #333;
         }
+
         p {
             color: #666;
         }
+
         button {
             background-color: #007bff;
             color: white;
@@ -32,9 +36,10 @@
             border-radius: 5px;
             cursor: pointer;
         }
-        button:hover {
-            background-color: #0056b3;
-        }
+
+            button:hover {
+                background-color: #0056b3;
+            }
     </style>
 </head>
 <body>
@@ -45,3 +50,11 @@
         <button onclick="showMessage()">Click Me</button>
     </div>
 
+    <script>
+        function showMessage() {
+            alert("Hello! You clicked the button.");
+        }
+    </script>
+
+</body>
+</html>
